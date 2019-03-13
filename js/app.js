@@ -1,21 +1,20 @@
 'use strict';
 
-var userName = 
-console.log(name);
+var userName = prompt('What is your name?');
+console.log(userName);
 
-var element = document.getElementById('greeting');
-console.log(element);
+// var element = document.getElementById('greeting');
+// console.log(element);
 
-var welcomeMessage = greeting + name.toUpperCase() + '!';
-element.textContent = welcomeMessage;
+var welcomeMessage = prompt('Hello ' + userName.toUpperCase() + '! So you think you know me?');
 console.log(welcomeMessage);
 
 
 
-var myString = 'foo';
-console.log('Before functon calls:', myString)
-console.log('toLowerCase():', myString.toLowerCase());
-console.log('toUpperCase():', myString.toUpperCase());
+// var myString = 'foo';
+// console.log('Before functon calls:', myString)
+// console.log('toLowerCase():', myString.toLowerCase());
+// console.log('toUpperCase():', myString.toUpperCase());
 
 
 
