@@ -62,3 +62,15 @@ if(question3.toLowerCase() === 'no' || question3.toLowerCase() === 'n'){
   alert('Nope. You\'r wrong. I love snowsports.');
 }
 
+//Question 4
+
+var question4 = prompt('Do I like to workout?');
+console.log(question2);
+
+if(question4.toLowerCase() === 'yes' || question4.toLowerCase() === 'y'){
+  alert('You are correct!');
+  correctAnswers += 1;
+  console.log(correctAnswers);
+} else {
+  alert('Nope. You\'r wrong. I love to workout.');
+}
