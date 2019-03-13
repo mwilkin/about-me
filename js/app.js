@@ -9,6 +9,13 @@ console.log(userName);
 var welcomeMessage = prompt('Hello ' + userName.toUpperCase() + '! So you think you know me?');
 console.log(welcomeMessage);
 
+if(welcomeMessage.toLowerCase() === "yes" || welcomeMessage.toLowerCase() === "y"){
+  console.log(welcomeMessage);
+  alert("Cool! Let's Rock!");
+} else {
+  alert("Goodbye");
+}
+
 
 
 // var myString = 'foo';
