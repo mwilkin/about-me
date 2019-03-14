@@ -94,3 +94,8 @@ if (correctAnswers >= 3){
 } else {
   alert('Sorry. You lose.');
 }
+
+//Question 6
+
+
+//Question 7
