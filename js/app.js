@@ -17,7 +17,7 @@ if(welcomeMessage.toLowerCase() === "yes" || welcomeMessage.toLowerCase() === "y
   console.log(welcomeMessage);
   alert("Cool! Let's Rock!");
 } else {
-  alert("Goodbye");
+  alert('Too bad! You have to play.');
 }
 
 //variable to track total correct user answers
@@ -59,7 +59,7 @@ if(question3.toLowerCase() === 'no' || question3.toLowerCase() === 'n'){
   correctAnswers += 1;
   console.log(correctAnswers);
 } else {
-  alert('Nope. You\'r wrong. I love snowsports.');
+  alert('Nope. You\'r wrong. I love coffee.');
 }
 
 //Question 4
@@ -73,4 +73,24 @@ if(question4.toLowerCase() === 'yes' || question4.toLowerCase() === 'y'){
   console.log(correctAnswers);
 } else {
   alert('Nope. You\'r wrong. I love to workout.');
+}
+
+//Question 5
+
+var question5 = prompt('Do I like to stay up past 9:30 PM?');
+console.log(question5);
+
+if(question5.toLowerCase() === 'no' || question4.toLowerCase() === 'NO'){
+  alert('You are correct! I like to go to sleep early.');
+  correctAnswers += 1;
+  console.log(correctAnswers);
+} else { 
+  alert('Nope. I\'m an early riser.');
+}
+
+if (correctAnswers >= 3){
+  alert('Great job! I guess you know me.');
+  alert('You got ' + correctAnswers + ' out of 4 correct.');
+} else {
+  alert('Sorry. You lose.');
 }
