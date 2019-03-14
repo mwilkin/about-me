@@ -6,3 +6,9 @@ body {
     text-align: center;
     padding: 10%;
 }
+
+.list {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}

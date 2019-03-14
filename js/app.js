@@ -96,6 +96,27 @@ if (correctAnswers >= 3){
 }
 
 //Question 6
+//takes numeric imput, guess favorite number, only 4 guesses given
+//not quite working
+
+var guessCounter = 0;
+var favoriteNumber = 7;
+
+var userNumberGuess = prompt('What is my favorite number?');
+console.log(userNumberGuess);
+
+for(var i = 0; i < 4; i++ ) {
+
+  if (userNumberGuess !== favoriteNumber) {
+    alert('You got it.' + favoriteNumber + ' is my favorite number.');
+  } else {
+    alert('Sorry. That is not my number');
+    guessCounter += 1;
+  }
+}
 
 
 //Question 7
+//store multiple correct answers in an array, 6 tries to get 1 correct answer.upon a correct answer or using up tries, a message displays indicating all of the possible correct answers.
+
+var correctCities = ['Portland', 'Boston', 'Bend', 'Medford', 'Sommerville'];
