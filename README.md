@@ -1,6 +1,10 @@
 # About Me
 A glorious about me page which should quickly inform the user of my background, education and experience.
 
+Tri-Power Contributors
+Tia Rose
+Jeff Lawrence
+
 ## Getting Started
 Instructions to get you up and running. 
 
